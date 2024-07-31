@@ -15,7 +15,7 @@ export default function Dotelement() {
     margin: 0,
     padding: 0,
     listStyleType: "none",
-    overflow:"hidden",
+    overflowX:"hidden",
     gap: 6,
     position: "relative",
     flexDirection: "row",
