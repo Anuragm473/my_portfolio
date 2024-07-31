@@ -193,39 +193,6 @@ export default function Dotelement() {
       className="framer-swvlxp"
       style={{
         backgroundColor:
-           'rgb(153,153,153)',
-        flexShrink: 0,
-        opacity: 1
-      }}
-    />
-  </li>
-  <li aria-hidden="true" style={{ willChange: "transform" }}>
-    <div
-      className="framer-swvlxp"
-      style={{
-        backgroundColor:
-           'rgb(153,153,153)',
-        flexShrink: 0,
-        opacity: 1
-      }}
-    />
-  </li>
-  <li aria-hidden="true" style={{ willChange: "transform" }}>
-    <div
-      className="framer-swvlxp"
-      style={{
-        backgroundColor:
-           'rgb(153,153,153)',
-        flexShrink: 0,
-        opacity: 1
-      }}
-    />
-  </li>
-  <li aria-hidden="true" style={{ willChange: "transform" }}>
-    <div
-      className="framer-swvlxp"
-      style={{
-        backgroundColor:
            'rgb(153, 153, 153)',
         flexShrink: 0,
         opacity: 1
