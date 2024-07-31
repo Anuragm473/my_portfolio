@@ -16,7 +16,7 @@ body{
 }
 .layout{
     max-width: 25rem;
-    padding: 5.4rem 4.8rem 4.8rem 5rem;
+    padding: 4.8rem 4.8rem 4.8rem 4.8rem;
     color:rgb(153, 153, 153);
     position:sticky;
     border-right:1px  solid rgb(26, 26, 26);
