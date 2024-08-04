@@ -2,11 +2,12 @@ import React from 'react'
 import Styles from './Home.module.css'
 import Dotelement from '../Dotelement/Dotelement'
 import RecentProjects from '../RecentProjects/RecentProjects'
+import MainHeader from '../MainHeader/MainHeader'
 export default function Home() {
   return (
     <main className={Styles.homeContainer}>
         <div className={Styles.about}>
-        <h1 className={Styles.mainHeader}>Hello Everyone! I'm Patricia.</h1>
+        <MainHeader>Hello Everyone! I'm Patricia.</MainHeader>
         <p className={Styles.paragrapgh}>A passionate web designer with a knack for turning ideas into visually stunning, user-friendly websites.</p>
         
         <div className={Styles.framer}>

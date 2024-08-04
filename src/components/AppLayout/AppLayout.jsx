@@ -1,8 +1,9 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 import Styles from './AppLayout.module.css'
 
 export default function AppLayout() {
+  const navigate=useNavigate()
   return (
     <main className={Styles.mainLayout}>
     <aside className={Styles.layout}>
@@ -14,11 +15,10 @@ export default function AppLayout() {
       </div>
       <div>
         <ul className={Styles.navigation}>
-          <li className={Styles.navigate}><ion-icon name="home-outline"></ion-icon><span>Home</span></li>
-          <li className={Styles.navigate}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
-          <li className={Styles.navigate}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
-          <li className={Styles.navigate}><ion-icon name="layers-outline"></ion-icon><span>Stack</span></li>
-          <li className={Styles.navigate}><ion-icon name="mail-outline"></ion-icon>Contact</li>
+          <li className={Styles.navigate} onClick={()=>navigate('/')}><ion-icon name="home-outline"></ion-icon><span>Home</span></li>
+          <li className={Styles.navigate} onClick={()=>navigate('about')}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
+          <li className={Styles.navigate} onClick={()=>navigate('project')}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
+          <li className={Styles.navigate} onClick={()=>navigate('contact')}><ion-icon name="mail-outline"></ion-icon>Contact</li>
         </ul>
       </div>
       </div>

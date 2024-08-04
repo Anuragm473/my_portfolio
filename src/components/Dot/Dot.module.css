@@ -1,0 +1,7 @@
+.framer-swvlxp{
+    aspect-ratio: 1 / 1;
+    height: var(--framer-aspect-ratio-supported, 1px);
+    overflow: hidden;
+    position: relative;
+    width: 1px;
+}

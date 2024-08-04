@@ -1,0 +1,14 @@
+.mainContainer{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    padding-bottom: 3.2rem;
+}
+.locationContainer{
+    display: flex;
+    max-width: 120rem;
+    justify-content: space-between;
+    gap:4.2rem;
+    align-items: center;
+}

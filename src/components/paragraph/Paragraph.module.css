@@ -1,0 +1,13 @@
+.paragrapgh{
+    color:rgb(153, 153, 153);
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Inter';
+    max-width: 75rem;
+    display: flex;
+    align-items: center;
+}
+.locationContainer{
+    display: flex;
+    
+}

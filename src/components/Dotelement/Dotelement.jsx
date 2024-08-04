@@ -7,9 +7,8 @@ export default function Dotelement() {
       <ul
   style={{
     display: "flex",
-    width: "100%",
-    height: "100%",
     maxWidth: "100%",
+    height: "100%",
     maxHeight: "100%",
     placeItems: "center",
     margin: 0,

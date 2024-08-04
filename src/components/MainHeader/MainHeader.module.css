@@ -1,0 +1,8 @@
+.mainHeader{
+    font-family: 'Inter';
+    color:rgba(255, 255, 255, 0.856);
+    padding-bottom: 2rem;
+    margin:0;
+    font-size: 5.6rem;
+    font-weight: 500;
+}

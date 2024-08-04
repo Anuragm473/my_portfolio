@@ -1,5 +1,5 @@
 .projectContainer{
-    padding:4.8rem 0 4.8rem 0;
+    padding:4.8rem 4.8rem 4.8rem 4.8rem;
     display:flex;
     flex-direction: column;
     gap:3rem;
@@ -15,47 +15,13 @@
     display:flex;
     gap:2rem;
 }
-.projectBox{
-    display:flex;
-    flex-direction: column;
-    gap:1.2rem;
-}
-.projectImg{
-    width:100%;
-    border-radius: 1rem;
-}
-.imgContainer{
-    max-width:55rem;
-    height: 55rem;
-}
-.projectHeading{
-    color:rgb(76, 230, 166);
-    font-size: 1.6rem;
-    margin: 0;
-    font-family: 'Inter';
-    font-weight: 300;
-}
+
+
+
 .framer{
     display:flex;
     justify-content: space-between;
     align-items: center;
     gap:3rem;
 }
-button{
-    padding:1.5rem 2rem;
-    background-color: rgb(5, 5, 5);
-    border-radius: 1rem;
-    font-size: medium;
-    font-weight: 400;
-    color: rgb(153, 153, 153);
-    border: 1px solid rgb(153, 153, 153);
-    width:19rem;
-}
-.contact{
-    font-size: 12.4rem;
-    font-family: 'Inter';
-    color:white;
-    font-weight: 500;
-    align-content: center;
-    cursor: pointer;
-}
+

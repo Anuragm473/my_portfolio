@@ -1,0 +1,32 @@
+.projectImg{
+    width:100%;
+    border-radius: 1rem;
+    transition:0.5s;
+}
+.projectImg:hover{
+    transform: scale(1.1);
+}
+.imgContainer{
+    max-width:55rem;
+    height: 55rem;
+    overflow: hidden;
+}
+.projectBox{
+    display:flex;
+    flex-direction: column;
+    gap:1.2rem;
+}
+.SecondHeader{
+    font-family: 'Inter';
+    color:white;
+    opacity: 0.8;
+    font-size: 2.4rem;
+    margin:0
+}
+.projectHeading{
+    color:rgb(76, 230, 166);
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 300;
+}
