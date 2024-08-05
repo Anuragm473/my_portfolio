@@ -16,9 +16,9 @@ export default function AppLayout() {
       <div>
         <ul className={Styles.navigation}>
           <li className={Styles.navigate} onClick={()=>navigate('/')}><ion-icon name="home-outline"></ion-icon><span>Home</span></li>
-          <li className={Styles.navigate} onClick={()=>navigate('about')}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
-          <li className={Styles.navigate} onClick={()=>navigate('project')}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
-          <li className={Styles.navigate} onClick={()=>navigate('contact')}><ion-icon name="mail-outline"></ion-icon>Contact</li>
+          <li className={Styles.navigate} onClick={()=>navigate('/about')}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
+          <li className={Styles.navigate} onClick={()=>navigate('/project')}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
+          <li className={Styles.navigate} onClick={()=>navigate('/contact')}><ion-icon name="mail-outline"></ion-icon>Contact</li>
         </ul>
       </div>
       </div>

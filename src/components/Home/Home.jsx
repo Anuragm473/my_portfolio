@@ -3,6 +3,8 @@ import Styles from './Home.module.css'
 import Dotelement from '../Dotelement/Dotelement'
 import RecentProjects from '../RecentProjects/RecentProjects'
 import MainHeader from '../MainHeader/MainHeader'
+import Stack from '../Stack/Stack'
+import LetsConnect from '../LetsConnect/LetsConnect'
 export default function Home() {
   return (
     <main className={Styles.homeContainer}>
@@ -21,6 +23,8 @@ export default function Home() {
         </div>
         </div>
         <RecentProjects/>
+        <Stack/>
+        <LetsConnect/>
     </main>
   )
 }

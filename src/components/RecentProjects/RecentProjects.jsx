@@ -27,7 +27,6 @@ export default function RecentProjects() {
             </div>
                 <Button onClick={()=>handleClick()}>View all projects &#x2192;</Button>
         </div>
-        <LetsConnect/>
     </div>
   )
 }
