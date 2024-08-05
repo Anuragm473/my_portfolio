@@ -4,7 +4,7 @@ import Dot from '../Dot/Dot'
 
 function ExperienceBox({heading,education=0,experience=0}){
     const list=education===0?experience:education;
-    const length=list.length
+    const length=list.length-1
     console.log(list)
     return(
         <div className={Styles.contain}>
@@ -15,7 +15,7 @@ function ExperienceBox({heading,education=0,experience=0}){
         <h3 className={Styles.name}>{item.position}</h3>
         <p className={Styles.institute}>{item.company}</p>
         </div>
-        <Dot/>
+        {index!==length && <Dot/>}
         </>})
         }
         </div>
