@@ -11,7 +11,7 @@ export default function Contact() {
         <div className={Styles.contact}>
             <h5 className={Styles.messageMe}>Message me</h5>
             <input placeholder='Name' className={Styles.nameInput} type='text'/>
-            <input placeholder='Email' className={Styles.nameInput} type='email'/>
+            <input placeholder='Email' className={Styles.emailInput} type='email'/>
             <textarea placeholder='Write a message...' className={Styles.messageInput} type='text'/>
             <button className={Styles.btn}>Send Message</button>
         </div>

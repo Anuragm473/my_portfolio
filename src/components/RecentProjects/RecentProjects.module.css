@@ -21,4 +21,9 @@
     align-items: center;
     gap:3rem;
 }
+@media(max-width:784px){
+    .project{
+        flex-direction: column;
+    }
+}
 

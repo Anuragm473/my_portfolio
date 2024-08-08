@@ -6,6 +6,9 @@
     color:white;
     margin: 0;
 }
+.tags{
+    display: none;
+}
 .paragrapgh{
     color:rgb(153, 153, 153);
     font-size: 1.8rem;
@@ -18,7 +21,7 @@
     max-width:24rem;
     gap:0.2rem;
     padding:0;
-    width: fit-content;
+    max-width: fit-content;
     color:rgb(153, 153, 153);
     font-size: 1.6rem;
     align-items:center;
@@ -33,20 +36,89 @@
     padding: 2rem 0;
 }
 .framer{
-    display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    column-gap:3rem;
-    justify-content: center;
+    display:flex;
+    gap:2rem;
+    justify-content: start;
     align-items: center;
 }
-button{
+.framer button{
     padding:1.5rem 2rem;
     background-color: rgb(5, 5, 5);
     border-radius: 1rem;
-    font-size: medium;
+    font-size: 1.8rem;
     font-weight: 400;
     color: rgb(153, 153, 153);
-    width: fit-content;
+    max-width: 20rem;
     border: 1px solid rgb(153, 153, 153);
-    width:19rem;
+}
+@media(max-width:2560px){
+    .framer button{
+        margin-left:20rem;
+    }
+}
+@media(max-width:2000px){
+    .framer button{
+        margin-left:0rem;
+    }
+}
+@media(max-width:1440px){
+    html{
+        font-size: 62%;
+    }
+    .framer button{
+        margin-left:0;
+    }
+}
+@media(max-width:1216px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:1127px){
+    html{
+        font-size: 44%;
+    }
+}
+@media(max-width:1024px){
+    html{
+        font-size: 46%;
+    }
+    
+}
+@media(max-width:939px){
+    html{
+        font-size: 40%;
+    }
+    
+}
+@media(max-width:786px){
+    .framer{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        row-gap: 3.2rem;
+        column-gap: 5rem;
+    }
+    .framer button{
+        grid-column: 1/-1;
+        max-width: 100%;
+        width: 100%;
+    }
+    .location{
+        font-size: 1.8rem;
+    }
+}
+@media(max-width:426px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:376px){
+    .location{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:320px){
+    html{
+        font-size: 46%;
+    }
 }

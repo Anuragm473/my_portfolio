@@ -1,26 +1,12 @@
 import React from 'react'
 import './Dotelement.css'
 
+
 export default function Dotelement() {
   return (
     <div>
       <ul
-  style={{
-    display: "flex",
-    maxWidth: "100%",
-    height: "100%",
-    maxHeight: "100%",
-    placeItems: "center",
-    margin: 0,
-    padding: 0,
-    listStyleType: "none",
-    overflowX:"hidden",
-    gap: 6,
-    position: "relative",
-    flexDirection: "row",
-    willChange: "transform",
-    transform: "translateX(0px)"
-  }}
+  className="ulList"
 >
   <li>
     <div
@@ -28,7 +14,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -39,7 +25,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -50,7 +36,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -61,7 +47,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -72,7 +58,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -83,7 +69,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -94,7 +80,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -105,7 +91,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -116,7 +102,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -127,7 +113,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -138,7 +124,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -149,7 +135,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -160,7 +146,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -171,7 +157,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -182,7 +168,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -193,7 +179,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153, 153, 153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -204,7 +190,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153, 153, 153))',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -215,7 +201,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -226,7 +212,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -237,7 +223,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -248,7 +234,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -259,7 +245,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -270,7 +256,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -281,7 +267,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -292,7 +278,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -303,7 +289,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -314,7 +300,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -325,7 +311,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -336,7 +322,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -347,7 +333,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -358,7 +344,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -369,7 +355,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -380,7 +366,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -391,7 +377,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -402,7 +388,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -413,7 +399,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -424,7 +410,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -435,7 +421,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -446,7 +432,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -457,7 +443,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -468,7 +454,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -479,7 +465,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -490,7 +476,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -501,7 +487,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -512,7 +498,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -523,7 +509,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -534,7 +520,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -545,7 +531,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -556,7 +542,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -567,7 +553,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -578,7 +564,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -589,7 +575,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -600,7 +586,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -611,7 +597,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -622,7 +608,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -633,7 +619,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -644,7 +630,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -655,7 +641,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -666,7 +652,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -677,7 +663,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -688,7 +674,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -699,7 +685,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -710,7 +696,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -721,7 +707,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -732,7 +718,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -743,7 +729,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -754,7 +740,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -765,7 +751,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -776,7 +762,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -787,7 +773,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -798,7 +784,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -809,7 +795,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -820,7 +806,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -831,7 +817,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -842,7 +828,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -853,7 +839,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -864,7 +850,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -875,7 +861,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -886,7 +872,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -897,7 +883,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -908,7 +894,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -919,7 +905,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -930,7 +916,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -941,7 +927,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -952,7 +938,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -963,7 +949,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -974,7 +960,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -985,7 +971,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -996,7 +982,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1007,7 +993,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1018,7 +1004,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1029,7 +1015,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1040,7 +1026,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1051,7 +1037,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1062,7 +1048,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1073,7 +1059,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1084,7 +1070,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1095,7 +1081,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -1106,7 +1092,7 @@ export default function Dotelement() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />

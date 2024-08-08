@@ -30,3 +30,11 @@
     font-family: 'Inter';
     font-weight: 300;
 }
+@media(max-width:784px){
+    .imgContainer{
+        max-width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        height: auto;
+    }
+}

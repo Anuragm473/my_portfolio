@@ -5,7 +5,9 @@ import RecentProjects from '../RecentProjects/RecentProjects'
 import MainHeader from '../MainHeader/MainHeader'
 import Stack from '../Stack/Stack'
 import LetsConnect from '../LetsConnect/LetsConnect'
+import { useNavigate } from 'react-router-dom'
 export default function Home() {
+  const navigate=useNavigate()
   return (
     <main className={Styles.homeContainer}>
         <div className={Styles.about}>
@@ -17,7 +19,7 @@ export default function Home() {
             <div>
                 <Dotelement/>
             </div>
-            <button>
+            <button onClick={()=>navigate('/about')}>
                 More About me &#x2192;
             </button>
         </div>

@@ -6,3 +6,23 @@
     align-content: center;
     cursor: pointer;
 }
+@media(max-width:807px){
+    .contact{
+        font-size: 11.4rem;
+    }
+}
+@media(max-width:426px){
+    .contact{
+        font-size: 6.4rem;
+    }
+}
+@media(max-width:376px){
+    .contact{
+        font-size: 5.4rem;
+    }
+}
+@media(max-width:320px){
+    .contact{
+        font-size: 4.4rem;
+    }
+}

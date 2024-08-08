@@ -1,7 +1,84 @@
 .framer-swvlxp{
-    aspect-ratio: 1 / 1;
-    height: var(--framer-aspect-ratio-supported, 1px);
+    height: 1px;
     overflow: hidden;
     position: relative;
     width: 1px;
+    aspect-ratio: 1/1;
+}
+.ulList{
+    display: flex;
+    max-width: 100%;
+    flex-grow:0;
+    max-height:100%;
+    place-items:center;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    overflow-x:hidden;
+    gap: 6px;
+    position: relative;
+    flex-direction: row;
+    will-change: transform;
+    transform: translateX(0px) 
+}
+@media(max-width:1440px){
+    .ulList{
+        gap:5px;
+    }
+}
+@media(max-width:1440px){
+    .ulList{
+        gap:3.2px;
+    }
+}
+@media(max-width:900px){
+    .ulList{
+        gap:2.5px
+    }
+}
+@media(max-width:786px){
+    .ulList{
+        gap:2.5px;
+    }
+}
+@media(max-width:764px){
+    .ulList{
+        gap:4px
+    }
+}
+@media(max-width:707px){
+    .ulList{
+        gap:3.5px
+    }
+}
+@media(max-width:661px){
+    .ulList{
+        gap:2.5px
+    }
+}
+@media(max-width:573px){
+    .ulList{
+        gap:2.2px
+    }
+}
+@media(max-width:426px){
+    .ulList{
+        gap:5px;
+        max-width: 17rem;
+        overflow: hidden;
+    }
+}
+@media(max-width:376px){
+    .ulList{
+        gap:5px;
+        max-width: 13rem;
+        overflow: hidden;
+    }
+}
+@media(max-width:376px){
+    .ulList{
+        gap:4px;
+        max-width: 9rem;
+        overflow: hidden;
+    }
 }

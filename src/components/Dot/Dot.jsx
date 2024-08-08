@@ -28,7 +28,7 @@ export default function Dot() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -39,7 +39,7 @@ export default function Dot() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
@@ -50,7 +50,7 @@ export default function Dot() {
       style={{
         backgroundColor:
            'rgb(153,153,153)',
-        flexShrink: 0,
+        flexShrink:1,
         opacity: 1
       }}
     />
