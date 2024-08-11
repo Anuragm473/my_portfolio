@@ -10,7 +10,6 @@
     display: none;
 }
 .paragrapgh{
-    color:rgb(153, 153, 153);
     font-size: 1.8rem;
     font-weight: 400;
     font-family: 'Inter';
@@ -43,11 +42,9 @@
 }
 .framer button{
     padding:1.5rem 2rem;
-    background-color: rgb(5, 5, 5);
     border-radius: 1rem;
     font-size: 1.8rem;
     font-weight: 400;
-    color: rgb(153, 153, 153);
     max-width: 20rem;
     border: 1px solid rgb(153, 153, 153);
 }

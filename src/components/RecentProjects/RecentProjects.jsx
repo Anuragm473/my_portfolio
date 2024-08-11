@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Styles from './RecentProjects.module.css'
 import Dotelement from '../Dotelement/Dotelement'
 import { useNavigate } from 'react-router-dom'
 import LetsConnect from '../LetsConnect/LetsConnect'
 import Button from '../Button/Button'
 import ProjectContainer from '../ProjectConatiner/ProjectContainer'
+import { contextMode } from '../AppLayout/AppLayout'
 
 export default function RecentProjects() {
-
+  const {mode,profile}=useContext(contextMode)
+  const project=profile.projects
     const navigate=useNavigate()
     function handleClick(){
         
@@ -18,8 +20,8 @@ export default function RecentProjects() {
     <div className={Styles.projectContainer}>
       <h2 className={Styles.SecondHeader}>Recent Projects</h2>
       <div className={Styles.project}>
-        <ProjectContainer url='https://framerusercontent.com/images/Z7dxTgCWtUvi8m83dXEUIvSkSA4.png?scale-down-to=2048' title='WEB DESIGN' projectName='My Recent projects'/>
-        <ProjectContainer url='https://framerusercontent.com/images/oWBuPL22H3F8LGrN7g47VwE.png' title='WEB DESIGN' projectName='My Recent projects'/>
+      <ProjectContainer url={project[0].project_img} title={project[0].project_title} projectName={project[0].project_description} projectLink={project[0].project_link}/>
+      <ProjectContainer url={project[1].project_img} title={project[1].project_title} projectName={project[1].project_description} projectLink={project[1].project_link}/>
       </div>
       <div className={Styles.framer}>
             <div>

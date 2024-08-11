@@ -4,12 +4,11 @@
     gap:0.2rem;
     padding:0;
     max-width: fit-content;
-    color:rgb(153, 153, 153);
     font-size: 1.6rem;
     align-items:center;
     justify-content: space-between;
     font-weight: 500;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 @media(max-width:768px){
     .location{

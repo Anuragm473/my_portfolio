@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Dotelement.css'
+import { contextMode } from '../AppLayout/AppLayout'
 
 
 export default function Dotelement() {
+  const {mode}=useContext(contextMode)
   return (
     <div>
       <ul
@@ -12,8 +14,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -23,8 +25,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -34,8 +36,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -45,8 +47,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -56,8 +58,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -67,8 +69,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -78,8 +80,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -89,8 +91,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -100,8 +102,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -111,8 +113,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -122,8 +124,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -133,8 +135,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -144,8 +146,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -155,8 +157,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -166,8 +168,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -199,8 +201,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -210,8 +212,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -221,8 +223,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -232,8 +234,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -243,8 +245,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -254,8 +256,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -265,8 +267,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -276,8 +278,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -287,8 +289,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -298,8 +300,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -309,8 +311,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -320,8 +322,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -331,8 +333,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -342,8 +344,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -353,8 +355,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -364,8 +366,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -375,8 +377,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -386,8 +388,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -397,8 +399,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -408,8 +410,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -419,8 +421,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -430,8 +432,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -441,8 +443,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -452,8 +454,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -463,8 +465,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -474,8 +476,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -485,8 +487,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -496,8 +498,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -507,8 +509,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -518,8 +520,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -529,8 +531,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -540,8 +542,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -551,8 +553,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -562,8 +564,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -573,8 +575,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -584,8 +586,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -595,8 +597,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -606,8 +608,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -617,8 +619,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -628,8 +630,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -639,8 +641,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -650,8 +652,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -661,8 +663,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -672,8 +674,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -683,8 +685,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -694,8 +696,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -705,8 +707,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -716,8 +718,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -727,8 +729,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -738,8 +740,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -749,8 +751,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -760,8 +762,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -771,8 +773,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -782,8 +784,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -793,8 +795,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -804,8 +806,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -815,8 +817,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -826,8 +828,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -837,8 +839,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -848,8 +850,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -859,8 +861,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -870,8 +872,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -881,8 +883,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -892,8 +894,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -903,8 +905,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -914,8 +916,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -925,8 +927,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -936,8 +938,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -947,8 +949,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -958,8 +960,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -969,8 +971,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -980,8 +982,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -991,8 +993,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1002,8 +1004,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1013,8 +1015,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1024,8 +1026,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1035,8 +1037,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1046,8 +1048,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1057,8 +1059,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1068,8 +1070,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1079,8 +1081,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
@@ -1090,8 +1092,8 @@ export default function Dotelement() {
     <div
       className="framer-swvlxp"
       style={{
-        backgroundColor:
-           'rgb(153,153,153)',
+        backgroundColor:mode==="dark"?
+           'rgb(153,153,153)':'black',
         flexShrink:1,
         opacity: 1
       }}
