@@ -40,13 +40,17 @@
     justify-content: start;
     align-items: center;
 }
-.framer button{
-    padding:1.5rem 2rem;
+.framer button {
+    padding: 1.5rem 2rem;
     border-radius: 1rem;
     font-size: 1.8rem;
     font-weight: 400;
     max-width: 20rem;
     border: 1px solid rgb(153, 153, 153);
+    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    -moz-appearance: none; /* Remove default styling in Firefox */
+    appearance: none; /* Remove default styling in other browsers */
+    box-shadow: none; /* Remove default shadow */
 }
 @media(max-width:2560px){
     .framer button{
