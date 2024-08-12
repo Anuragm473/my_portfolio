@@ -1,4 +1,4 @@
-.SecondHeader{
+.secondHeader{
     font-family: 'Inter';
     color:white;
     opacity: 0.8;
@@ -6,7 +6,7 @@
     margin:0
 }
 .stackContainer{
-    padding:4.8rem 4.8rem 4.8rem 0;
+    padding:4.8rem 4.8rem 4.8rem 2rem;
     display:flex;
     flex-direction: column;
     gap:3rem;
@@ -44,32 +44,46 @@
         max-width: 18rem;
     }
 }
+@media(max-width:575px){
+    .stack{
+        grid-template-columns:repeat(2,1fr)
+    }
+    .navigate{
+        padding-left:4.8rem;
+        max-width:22rem;
+    }
+}
+@media(max-width:493px){
+    .navigate{
+        max-width:18rem;
+    }
+}
 @media(max-width:426px){
     .navigate{
-        max-width: 12rem;
-        padding:0.5rem 0.5rem 0.5rem 0.8rem;
-        font-size: 1.4rem;
+        max-width: 14rem;
+        padding:1rem 1rem 1rem 2.4rem;
+        font-size: 1.8rem;
         height:5rem;
         justify-content: flex-start;
     }
     .stackContainer{
-        padding:3.2rem 0 3.2rem 0;
+        padding:3.2rem 0 3.2rem 1rem;
     }
 }
 @media(max-width:376px){
     .navigate{
-        max-width: 11rem;
-        padding:0.5rem 0.5rem 0.5rem 0.8rem;
-        font-size: 1.2rem;
+        max-width: 12rem;
+        padding:0.5rem 0.5rem 0.5rem 2.4rem;
+        font-size: 1.4rem;
         height:4rem;
         justify-content: flex-start;
     }
 }
-@media(max-width:320px){
+@media(max-width:329px){
     .navigate{
-        max-width: 10rem;
-        padding:0.5rem 0.5rem 0.5rem 0.8rem;
-        font-size: 1.2rem;
+        max-width: 11rem;
+        padding:0.8rem 0.8rem 0.8rem 1.5rem;
+        font-size: 1.3rem;
         height:3.8rem;
         justify-content: flex-start;
     }

@@ -16,14 +16,15 @@
     flex-direction: column;
     gap:1.2rem;
 }
-.SecondHeader{
+.secondHeader{
     font-family: 'Inter';
-    color:white;
     opacity: 0.8;
     font-size: 2.4rem;
-    margin:0
+    margin:0;
+    font-weight:700;
+    display:inline-block;
 }
-.projectHeading{
+.title{
     color:rgb(76, 230, 166);
     font-size: 1.6rem;
     margin: 0;
@@ -36,5 +37,12 @@
         aspect-ratio: 1/1;
         object-fit: cover;
         height: auto;
+    }
+}
+@media(max-width:564px){
+    .secondHeader{
+        font-size:2rem;
+        margin:0;
+        padding-top:0.8rem;
     }
 }

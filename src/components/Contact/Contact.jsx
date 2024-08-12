@@ -3,12 +3,31 @@ import MainHeader from '../MainHeader/MainHeader'
 import Styles from './Contact.module.css'
 import Paragraph from '../paragraph/Paragraph'
 import { contextMode } from '../AppLayout/AppLayout'
+import axios from 'axios';
+
 
 export default function Contact() {
-  const {mode}=useContext(contextMode)
+  const {mode,profile}=useContext(contextMode)
   const [name,setName]=useState('')
   const [email,setEmail]=useState('')
   const [message,setMessage]=useState('')
+  const recieverEmail=profile.email
+  const subject="Let's Collabrate"
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await axios.post('https://pexiflow-backend.onrender.com/api/contact/sendEmail', { name, email, message,recieverEmail,subject});
+
+      setName('');
+      setEmail('');
+      setMessage('');
+    } catch (error) {
+      alert('something went wrong')
+    }
+  };
+
   return (
     <main className={Styles.container}>
     <h2 style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.header}>Let's Connect</h2>
@@ -18,7 +37,7 @@ export default function Contact() {
             <input value={name} onChange={(e)=>{setName(e.target.value)}} placeholder='Name' className={Styles.nameInput} type='text'/>
             <input value={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email' className={Styles.emailInput} type='email'/>
             <textarea value={message} onChange={(e)=>{setMessage(e.target.value)}} placeholder='Write a message...' className={Styles.messageInput} type='text'/>
-            <button style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.btn}>Send Message</button>
+            <button style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.btn} onClick={(e)=>handleSubmit(e)}>Send Message</button>
         </div>
         <div className={Styles.contactInfo}>
         <h5 style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.contactHeader}>Contact</h5>

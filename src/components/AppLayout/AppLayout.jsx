@@ -92,7 +92,7 @@ export default function AppLayout() {
   };
   const [profile,setUserProfile]=useState(userProfile)
   const [mode,setMode]=useState("dark")
-  const [isOpen,setIsOpen]=useState(true)
+  const [isOpen,setIsOpen]=useState(false)
   const navigate=useNavigate()
   const setState=()=>setIsOpen(isOpen=>!isOpen)
   useEffect(function(){
@@ -122,13 +122,53 @@ export default function AppLayout() {
       <ion-icon  name={isOpen?"close-outline":"menu-outline"}></ion-icon>
       </div>
       </div>
+      <div className={Styles.modall} style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f9fafb'}}>
+      <div className={Styles.nav}>
+        <ul className={Styles.navigation}>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/')
+            setIsOpen(false)
+          }}><ion-icon name="home-outline"></ion-icon><span>Home</span></li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/about')
+            setIsOpen(false)
+          }}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/project')
+            setIsOpen(false)
+          }}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/contact')
+            setIsOpen(false)
+          }}><ion-icon name="mail-outline"></ion-icon>Contact</li>
+        </ul>
+      </div>
+      <ul className={Styles.social} style={{ color: mode === 'dark' ? '#f9f9f9' : 'black' }}>
+            <span className={Styles.iconWrapper} onClick={() => window.open(profile.linkedin, '_blank')}>
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </span>
+            <span className={Styles.iconWrapper} onClick={() => window.open(profile.twitter || '#', '_blank')}>
+              <ion-icon name="logo-twitter"></ion-icon>
+            </span>
+            <span className={Styles.iconWrapper} onClick={() => window.open(profile.instagram, '_blank')}>
+              <ion-icon name="logo-instagram"></ion-icon>
+            </span>
+            <span className={Styles.iconWrapper} onClick={() => window.open(profile.github, '_blank')}>
+              <ion-icon name="logo-github"></ion-icon>
+            </span>
+          </ul>
+      </div>
       {isOpen && <div className={Styles.modal} style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f9fafb'}}>
       <div className={Styles.nav}>
         <ul className={Styles.navigation}>
-          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>navigate('/')}><ion-icon name="home-outline"></ion-icon><span>Home</span></li>
-          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>navigate('/about')}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
-          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>navigate('/project')}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
-          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>navigate('/contact')}><ion-icon name="mail-outline"></ion-icon>Contact</li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/')
+            setIsOpen(false)
+          }}><ion-icon name="home-outline"></ion-icon><span>Home</span></li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/about')
+            setIsOpen(false)
+          }}><ion-icon name="person-circle-outline"></ion-icon><span>About</span></li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/project')
+            setIsOpen(false)
+          }}><ion-icon name="briefcase-outline"></ion-icon><span>Project</span></li>
+          <li className={Styles.navigate} style={{color:mode==='dark'?'#f9f9f9':'black'}} onClick={()=>{navigate('/contact')
+            setIsOpen(false)
+          }}><ion-icon name="mail-outline"></ion-icon>Contact</li>
         </ul>
       </div>
       <ul className={Styles.social} style={{ color: mode === 'dark' ? '#f9f9f9' : 'black' }}>

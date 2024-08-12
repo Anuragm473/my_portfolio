@@ -18,7 +18,7 @@ export default function RecentProjects() {
 
   return (
     <div className={Styles.projectContainer}>
-      <h2 className={Styles.SecondHeader}>Recent Projects</h2>
+      <h2 className={Styles.secondHeader} style={{color:mode==='dark'?'#f9f9f9':'black'}}>Recent Projects</h2>
       <div className={Styles.project}>
       <ProjectContainer url={project[0].project_img} title={project[0].project_title} projectName={project[0].project_description} projectLink={project[0].project_link}/>
       <ProjectContainer url={project[1].project_img} title={project[1].project_title} projectName={project[1].project_description} projectLink={project[1].project_link}/>

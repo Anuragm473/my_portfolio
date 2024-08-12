@@ -4,11 +4,11 @@
     flex-direction: column;
     gap:3rem;
 }
-.SecondHeader{
+.secondHeader{
     font-family: 'Inter';
     color:white;
     opacity: 0.8;
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     margin:0
 }
 .project{
@@ -24,6 +24,11 @@
 @media(max-width:784px){
     .project{
         flex-direction: column;
+    }
+}
+@media(max-width:400px){
+    .secondHeader{
+        font-size:2.4rem;
     }
 }
 

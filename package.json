@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "axios": "^1.7.3",
     "postcss": "^8.4.41",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^10.0.0",
@@ -30,7 +31,6 @@
     "vite": "^5.2.0"
   },
   "browserslist": [
-   
     "> 0.2%",
     "last 2 versions",
     "not dead"
