@@ -37,7 +37,7 @@ export default function Contact() {
             <input value={name} onChange={(e)=>{setName(e.target.value)}} placeholder='Name' className={Styles.nameInput} type='text'/>
             <input value={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder='Email' className={Styles.emailInput} type='email'/>
             <textarea value={message} onChange={(e)=>{setMessage(e.target.value)}} placeholder='Write a message...' className={Styles.messageInput} type='text'/>
-            <button className={Styles.btn} onClick={(e)=>handleSubmit(e)}>Send Message</button>
+            <button className={Styles.btttn} onClick={(e)=>handleSubmit(e)}>Send Message</button>
         </div>
         <div className={Styles.contactInfo}>
         <h5 style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.contactHeader}>Contact</h5>

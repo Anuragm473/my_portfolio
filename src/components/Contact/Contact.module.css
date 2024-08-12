@@ -84,7 +84,7 @@
     font-family: 'Inter';
     font-size: 1.6rem;
 }
-.btn {
+.btttn {
     grid-column: 1/3;
     width: 100%;
     background-color: hsl(155, 75%, 60%);
@@ -97,12 +97,12 @@
     transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
 
-.btn:hover {
+.btttn:hover {
     background-color: hsl(155, 75%, 50%); /* Darker shade on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
-.btn:focus {
+.btttn:focus {
     outline: none; /* Remove default focus outline */
     box-shadow: 0 0 0 3px rgba(155, 75, 60, 0.5); /* Custom focus ring */
 }
