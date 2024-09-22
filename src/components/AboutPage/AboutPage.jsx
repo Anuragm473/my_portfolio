@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
     <div className={Styles.mainContainer} style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}}>
     <MainHeader>Get to Know Me</MainHeader>
-    <Paragraph>Hello, I'm {profile.name}, and I'm more than just a web designer; I'm a digital storyteller. I have always been captivated by the art of web design, and my journey in this field has been nothing short of exhilarating. My goal is to craft websites that not only look beautiful but also function seamlessly, providing an exceptional user experience.</Paragraph>
+    <Paragraph>Hello, I'm Anurag, and I'm more than just a software developer; I'm a digital problem solver. I've always been fascinated by the power of code, and my journey in software development has been both challenging and rewarding. My goal is to build applications that not only perform efficiently but also deliver a seamless and intuitive user experience, transforming complex problems into elegant, functional solutions.</Paragraph>
     <div className={Styles.locationContainer}>
     <Location>{profile.location}</Location>
     <Dotelement/>

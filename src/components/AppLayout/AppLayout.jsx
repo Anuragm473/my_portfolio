@@ -6,89 +6,72 @@ export const contextMode=createContext()
 
 export default function AppLayout() {
   const userProfile = {
-    _id: "669bb705dcf25c14eb581678",
     email: "anurag47mishra@gmail.com",
-    username: "anurag",
-    name: "anurag",
-    im: "https://framerusercontent.com/images/iTTje84cuPl3KGKsd8HjMBFO0.jpg?scale-down-to=512",
-    location: "Vasai-virar,mumbai",
+    username: "Anurag",
+    name: "Anurag",
+    im: "myimage.jpeg",
+    location: "Vasai-virar,Mumbai",
     linkedin: "https://www.linkedin.com/in/anurag-mishra-ba1a27271/",
     instagram: "https://www.instagram.com/_.anuragmishra._/",
     github: "https://github.com/Anuragm473",
-    about: "A passionate web designer with a knack for turning ideas into visually stunning, user-friendly websites.",
-    imgUrl: "https://firebasestorage.googleapis.com/v0/b/portfolio-generator-website.appspot.com/o/person.png?alt=media&token=18d48a8b-055b-414a-ada4-9c4bf2dbbb19",
+    about: "A dedicated full-stack MERN developer with a passion for building robust, scalable web applications. Proficient in creating seamless user experiences and optimizing backend systems, I thrive on transforming complex problems into efficient, innovative solutions using MongoDB, Express.js, React, and Node.js. Whether it’s developing responsive front-end interfaces or architecting powerful back-end services, I’m driven by a love for clean code and impactful digital experiences.",
+    imgUrl: "myimage.jpeg",
     skills: [
-      'github','react','nodejs','angular'
+      'React','Express','Node.js','MongoDB','Python','JavaScript','Git','GitHub','HTML5','CSS3','Docker','Redux','Bootstrap','Firebase','MySQL','Redis','Tailwind CSS'
     ],
-    isPro: false,
-    isHosted: true,
-    templateName: 1,
     experience: [
       {
-        position:'Freelance Web Designer',
-        company:'InnovateTech Inc., 2020 - present'
+        position:'React Developer',
+        company:'Caterersnearme, 2024 Auguest - present'
       },{
-        position:'Lead Designer',
-        company:'XYZ Creative Agency, 2015 - 2019'
-      },{
-        position:'Senior Web Designer',
-        company:'ABC Web Studio, 2010 - 2015'
+        position:'MERN Developer',
+        company:'Pexilim, 2024 June - 2024 Auguest'
       }
     ],
     projects: [
       {
-        project_img: "https://framerusercontent.com/images/Z7dxTgCWtUvi8m83dXEUIvSkSA4.png?scale-down-to=2048",
-        project_title: "WEB DESIGN",
+        project_img: "wildoasis.png",
+        project_title: "LodgeManager",
         project_time: "",
-        project_description: "My Recent projects",
-        project_link: "Link here",
+        project_description: "Manage Booking in a single go",
+        project_link: "https://wild-oasis-ten-orpin.vercel.app/",
         project_tags: [],
-        isShow: true,
-        _id: "66963d3227fb4d61bf88db79"
       },
       {
-        project_img: "https://framerusercontent.com/images/oWBuPL22H3F8LGrN7g47VwE.png",
-        project_title: "WEB DESIGN",
+        project_img: "fastreactpizza.png",
+        project_title: "Fast React Pizza",
         project_time: "",
-        project_description: "My recent Project",
-        project_link: "zx",
+        project_description: "Pizza ordering website",
+        project_link: "https://fast-react-pizza-ten-weld.vercel.app/",
         project_tags: [],
-        isShow: true,
-        _id: "66963d3d27fb4d61bf88db7e"
       },{
-        project_img: "https://framerusercontent.com/images/Z7dxTgCWtUvi8m83dXEUIvSkSA4.png?scale-down-to=2048",
-        project_title: "WEB DESIGN",
+        project_img: "natours.png",
+        project_title: "Traveling website",
         project_time: "",
-        project_description: "My Recent projects",
-        project_link: "Link here",
-        project_tags: [],
-        isShow: true,
-        _id: "66963d3227fb4d61bf88db79"
+        project_description: "Book your tours now",
+        project_link: "https://natours-ifv2.vercel.app/",
+        project_tags: []
       },
       {
-        project_img: "https://framerusercontent.com/images/oWBuPL22H3F8LGrN7g47VwE.png",
-        project_title: "WEB DESIGN",
+        project_img: "omnifood.png",
+        project_title: "Food website",
         project_time: "",
-        project_description: "My recent Project",
-        project_link: "zx",
-        project_tags: [],
-        isShow: true,
-        _id: "66963d3d27fb4d61bf88db7e"
+        project_description: "Get tasty meals in one click",
+        project_link: "https://omni-food-swart.vercel.app/",
+        project_tags: []
       }
     ],
     education: [{
-      position:"Bachelor's Degree in Web Design and Development",
-      company:'XYZ University, 2010'
+      position:"Bachelor's Degree in Engineering",
+      company:'Theem College of Engineering, 2025'
     },{
-      position:"Certification in User Experience (UX) Design",
-      company:'UXUI Institute, 2012'
+      position:"Higher Secondary Education",
+      company:'Abhinav College, 2021'
+    },{
+      position:"High School education",
+      company:'St.Aloysius High School, 2021'
     }],
-    createdAt: new Date(1709905580400),
-    __v: 21,
-    facebook: "",
-    otherLink: "",
     resumeLink: "",
-    messages: []
   };
   const [profile,setUserProfile]=useState(userProfile)
   const [mode,setMode]=useState("dark")
@@ -190,16 +173,6 @@ export default function AppLayout() {
       </div>
     </aside>
     <section className={Styles.mainSection}>
-    <div className={Styles.mode} onClick={()=>setMode(mode=>mode==="dark"?"light":"dark")}>
-      {mode==="dark"?
-      <span
-        class="material-symbols-outlined"
-        style={{ color: "white", fontSize: "30px" }}
-      >
-        light_mode
-      </span>:
-      <span class="material-symbols-outlined" style={{ color: "black", fontSize: "30px" }}>dark_mode</span>}
-      </div>
     <Outlet/>
     </section>
     </main>

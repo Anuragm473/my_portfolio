@@ -41,13 +41,12 @@ export default function Contact() {
         </div>
         <div className={Styles.contactInfo}>
         <h5 style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.contactHeader}>Contact</h5>
-        <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="mail-outline"></ion-icon><span className={Styles.small}>contact@pexiflow.in</span></Paragraph>
+        <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="mail-outline"></ion-icon><span className={Styles.small}>anurag47mishra@gmail.com</span></Paragraph>
         <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="call-outline"></ion-icon><span className={Styles.small}>+91 1234567890</span></Paragraph>
         </div>
         <div className={Styles.contactInfo}>
         <h5 style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}} className={Styles.contactHeader}>Social Media</h5>
         <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="logo-linkedin"></ion-icon><span className={Styles.small}>LinkedIn</span></Paragraph>
-        <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="logo-twitter"></ion-icon><span className={Styles.small}>Twitter</span></Paragraph>
         <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="logo-instagram"></ion-icon><span className={Styles.small}>Instagram</span></Paragraph>
         <Paragraph><ion-icon style={{fontSize:'1.8rem',paddingRight:'0.8rem'}} name="logo-github"></ion-icon><span className={Styles.small}>Github</span></Paragraph>
         </div>

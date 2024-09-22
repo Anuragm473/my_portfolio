@@ -11,7 +11,7 @@ export default function Stack() {
       <h2 className={Styles.secondHeader} style={{color:mode==='dark'?'#f9f9f9':'black'}}>Stack</h2>
       <ul className={Styles.stack}>
         {profile.skills.map(skill=>
-          <li className={Styles.navigate} style={{backgroundColor:mode==='dark'?'rgb(26, 26, 26)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}}><ion-icon name={`logo-${skill}`}></ion-icon><span>{skill}</span></li>)}
+          <li className={Styles.navigate} style={{backgroundColor:mode==='dark'?'#333':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}}><img className={Styles.imageContainer} src={`${skill}.png`}/><span>{skill}</span></li>)}
         </ul>
     </div>
     <Dotelement/>

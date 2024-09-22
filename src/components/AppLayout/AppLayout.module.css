@@ -16,6 +16,7 @@ html{
 .profileImg{
     max-width:19.2rem;
     border-radius: 1rem;
+    filter: grayscale(50%);
 }
 .socialGap{
     display: flex;

@@ -14,7 +14,7 @@ export default function Home() {
     <main className={Styles.homeContainer}>
       <div className={Styles.about}>
         <MainHeader>Hello Everyone! I'm {profile.username}.</MainHeader>
-        <p className={Styles.paragrapgh} style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'#f3f4f6':'black'}}>
+        <p className={Styles.paragrapgh} style={{backgroundColor:mode==='dark'?'rgb(5,5,5)':'#f3f4f6',color:mode==='dark'?'rgba(207,210,214,0.99)':'black'}}>
           {profile.about}
         </p>
 
