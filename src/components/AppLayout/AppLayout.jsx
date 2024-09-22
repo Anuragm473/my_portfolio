@@ -69,7 +69,7 @@ export default function AppLayout() {
       company:'Abhinav College, 2021'
     },{
       position:"High School education",
-      company:'St.Aloysius High School, 2021'
+      company:'St.Aloysius High School, 2019'
     }],
     resumeLink: "",
   };
