@@ -52,11 +52,11 @@ export default function Contact() {
           <h5 style={{ backgroundColor: mode === 'dark' ? 'rgb(5,5,5)' : '#f3f4f6', color: mode === 'dark' ? '#f3f4f6' : 'black' }} className={Styles.contactHeader}>Contact</h5>
           <Paragraph>
             <ion-icon style={{ fontSize: '1.8rem', paddingRight: '0.8rem' }} name="mail-outline"></ion-icon>
-            <span className={Styles.small}>your-email@gmail.com</span>
+            <span className={Styles.small}>anurag47mishra@gmail.com</span>
           </Paragraph>
           <Paragraph>
             <ion-icon style={{ fontSize: '1.8rem', paddingRight: '0.8rem' }} name="call-outline"></ion-icon>
-            <span className={Styles.small}>+91 1234567890</span>
+            <span className={Styles.small}>+91 8412966915</span>
           </Paragraph>
         </div>
         <div className={Styles.contactInfo}>
